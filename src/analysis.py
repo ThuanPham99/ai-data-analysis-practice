@@ -3,4 +3,5 @@ def load_data():
 
 
 def handle_missing_values(data):
-    return data.fillna("missing")
+    return data.dropna()
+
