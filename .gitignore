@@ -6,3 +6,9 @@
 
 # Jupyter tự sinh checkpoint, không cần đưa vào lịch sử Git
 notebooks/.ipynb_checkpoints/
+
+__pycache__/
+*.py[cod]
+data/raw/
+data/processed/
+models/
