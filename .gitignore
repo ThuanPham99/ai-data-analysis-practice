@@ -1,0 +1,8 @@
+# Secrets: có thể chứa API key, password hoặc token thật
+.env
+
+# Python virtual environment: tạo lại được từ requirements.txt
+.venv/
+
+# Jupyter tự sinh checkpoint, không cần đưa vào lịch sử Git
+notebooks/.ipynb_checkpoints/
